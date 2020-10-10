@@ -1,0 +1,4 @@
+driverClassName: com.mysql.cj.jdbc.Driver
+url: jdbc:mysql://192.168.3.220:3306/MUSICDB
+username: ke
+password: contra321

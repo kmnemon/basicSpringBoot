@@ -9,6 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.JpaVendorAdapter;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
@@ -21,6 +22,7 @@ import java.util.Properties;
 
 @Configuration
 @PropertySource("classpath:jdbc.properties")
+@EnableJpaRepositories(basePackages = {"keliu.basicSpringBoot.repos"})
 @ComponentScan(basePackages = "keliu.basicSpringBoot")
 public class DataConfig {
     private static Logger logger = LoggerFactory.getLogger(DataConfig.class);

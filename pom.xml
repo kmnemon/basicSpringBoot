@@ -87,6 +87,12 @@
 			<artifactId>castor-xml</artifactId>
 			<version>1.4.1</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-oxm -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-oxm</artifactId>
+			<version>5.2.9.RELEASE</version>
+		</dependency>
 
 
 	</dependencies>

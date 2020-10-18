@@ -7,7 +7,7 @@ import java.util.Date;
 import static javax.persistence.GenerationType.IDENTITY;
 
 @Entity
-@Table(name = "singer")
+@Table(name = "SINGER")
 @NamedQueries({
 		@NamedQuery(name = Singer.FIND_ALL, query = "select s from Singer s"),
 		@NamedQuery(name = Singer.COUNT_ALL, query = "select count(s) from Singer s")

@@ -1,6 +1,6 @@
 <mapping>
     <class name="keliu.basicSpringBoot.entities.Singers">
-        <field name="singers" type="com.apress.prospring5.ch12.entities.Singer" collection="arraylist">
+        <field name="singers" type="keliu.basicSpringBoot.entities.Singer" collection="arraylist">
             <bind-xml name="singer"/>
         </field>
     </class>
